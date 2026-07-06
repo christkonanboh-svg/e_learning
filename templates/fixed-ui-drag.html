@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en"
       dir="ltr">
@@ -22,32 +23,32 @@
 
         <!-- Perfect Scrollbar -->
         <link type="text/css"
-              href="assets/vendor/perfect-scrollbar.css"
+              href="{% static 'assets/vendor/perfect-scrollbar.css' %}"
               rel="stylesheet">
 
         <!-- Material Design Icons -->
         <link type="text/css"
-              href="assets/css/material-icons.css"
+              href="{% static 'assets/css/material-icons.css' %}"
               rel="stylesheet">
 
         <!-- Font Awesome Icons -->
         <link type="text/css"
-              href="assets/css/fontawesome.css"
+              href="{% static 'assets/css/fontawesome.css' %}"
               rel="stylesheet">
 
         <!-- Preloader -->
         <link type="text/css"
-              href="assets/vendor/spinkit.css"
+              href="{% static 'assets/vendor/spinkit.css' %}"
               rel="stylesheet">
 
         <!-- App CSS -->
         <link type="text/css"
-              href="assets/css/app.css"
+              href="{% static 'assets/css/app.css' %}"
               rel="stylesheet">
 
         <!-- Dragula -->
         <link type="text/css"
-              href="assets/vendor/dragula/dragula.min.css"
+              href="{% static 'assets/vendor/dragula/dragula.min.css' %}"
               rel="stylesheet">
 
     </head>
@@ -97,7 +98,7 @@
                             <!-- Brand -->
                             <a href="fixed-student-dashboard.html"
                                class="navbar-brand">
-                                <img src="assets/images/logo/white.svg"
+                                <img src="{% static 'assets/images/logo/white.svg' %}"
                                      class="mr-2"
                                      alt="LearnPlus" />
                                 <span class="d-none d-xs-md-block">LearnPlus</span>
@@ -163,7 +164,7 @@
                                                     </span>
                                                     <span class="d-flex">
                                                         <span class="avatar avatar-xs mr-2">
-                                                            <img src="assets/images/people/110/woman-5.jpg"
+                                                            <img src="{% static 'assets/images/people/110/woman-5.jpg' %}"
                                                                  alt="people"
                                                                  class="avatar-img rounded-circle">
                                                         </span>
@@ -184,7 +185,7 @@
                                                     </span>
                                                     <span class="d-flex">
                                                         <span class="avatar avatar-xs mr-2">
-                                                            <img src="assets/images/people/110/woman-5.jpg"
+                                                            <img src="{% static 'assets/images/people/110/woman-5.jpg' %}"
                                                                  alt="people"
                                                                  class="avatar-img rounded-circle">
                                                         </span>
@@ -267,7 +268,7 @@
                                     <a class="nav-link dropdown-toggle"
                                        data-toggle="dropdown"
                                        href="#"
-                                       role="button"><img src="assets/images/people/50/guy-6.jpg"
+                                       role="button"><img src="{% static 'assets/images/people/50/guy-6.jpg' %}"
                                              alt="Avatar"
                                              class="rounded-circle"
                                              width="40"></a>
@@ -508,13 +509,13 @@
                                 <div class="card card-sm">
                                     <div class="position-relative">
                                         <div class="card-img-top">
-                                            <img src="assets/images/stories/256_rsz_phil-hearing-769014-unsplash.jpg"
+                                            <img src="{% static 'assets/images/stories/256_rsz_phil-hearing-769014-unsplash.jpg' %}"
                                                  class="card-img-top"
                                                  alt="">
                                         </div>
                                         <div class="card-body avatar-group position-absolute-top">
                                             <div class="avatar avatar-xs">
-                                                <a href="#"><img src="assets/images/256_rsz_nicolas-horn-689011-unsplash.jpg"
+                                                <a href="#"><img src="{% static 'assets/images/256_rsz_nicolas-horn-689011-unsplash.jpg' %}"
                                                          alt="Avatar"
                                                          class="avatar-img rounded-circle"></a>
                                             </div>
@@ -535,13 +536,13 @@
                                 <div class="card card-sm">
                                     <div class="position-relative">
                                         <div class="card-img-top">
-                                            <img src="assets/images/stories/256_rsz_thomas-russell-751613-unsplash.jpg"
+                                            <img src="{% static 'assets/images/stories/256_rsz_thomas-russell-751613-unsplash.jpg' %}"
                                                  class="card-img-top"
                                                  alt="">
                                         </div>
                                         <div class="card-body avatar-group position-absolute-top">
                                             <div class="avatar avatar-xs">
-                                                <a href="#"><img src="assets/images/256_rsz_sharina-mae-agellon-377466-unsplash.jpg"
+                                                <a href="#"><img src="{% static 'assets/images/256_rsz_sharina-mae-agellon-377466-unsplash.jpg' %}"
                                                          alt="Avatar"
                                                          class="avatar-img rounded-circle"></a>
                                             </div>
@@ -562,13 +563,13 @@
                                 <div class="card card-sm">
                                     <div class="position-relative">
                                         <div class="card-img-top">
-                                            <img src="assets/images/stories/256_rsz_ross-sneddon-798476-unsplash.jpg"
+                                            <img src="{% static 'assets/images/stories/256_rsz_ross-sneddon-798476-unsplash.jpg' %}"
                                                  class="card-img-top"
                                                  alt="">
                                         </div>
                                         <div class="card-body avatar-group position-absolute-top">
                                             <div class="avatar avatar-xs">
-                                                <a href="#"><img src="assets/images/256_rsz_florian-perennes-594195-unsplash.jpg"
+                                                <a href="#"><img src="{% static 'assets/images/256_rsz_florian-perennes-594195-unsplash.jpg' %}"
                                                          alt="Avatar"
                                                          class="avatar-img rounded-circle"></a>
                                             </div>
@@ -610,7 +611,7 @@
                                                 <div class="card-body media">
                                                     <div class="media-left mr-1">
                                                         <div class="avatar">
-                                                            <img src="assets/images/256_rsz_nicolas-horn-689011-unsplash.jpg"
+                                                            <img src="{% static 'assets/images/256_rsz_nicolas-horn-689011-unsplash.jpg' %}"
                                                                  alt="Avatar"
                                                                  class="avatar-img rounded-circle">
                                                         </div>
@@ -629,7 +630,7 @@
                                                 <div class="card-body media">
                                                     <div class="media-left mr-1">
                                                         <div class="avatar">
-                                                            <img src="assets/images/256_rsz_sharina-mae-agellon-377466-unsplash.jpg"
+                                                            <img src="{% static 'assets/images/256_rsz_sharina-mae-agellon-377466-unsplash.jpg' %}"
                                                                  alt="Avatar"
                                                                  class="avatar-img rounded-circle">
                                                         </div>
@@ -648,7 +649,7 @@
                                                 <div class="card-body media">
                                                     <div class="media-left mr-1">
                                                         <div class="avatar">
-                                                            <img src="assets/images/256_rsz_karl-s-973833-unsplash.jpg"
+                                                            <img src="{% static 'assets/images/256_rsz_karl-s-973833-unsplash.jpg' %}"
                                                                  alt="Avatar"
                                                                  class="avatar-img rounded-circle">
                                                         </div>
@@ -678,7 +679,7 @@
                                                 <div class="card-body media">
                                                     <div class="media-left mr-1">
                                                         <div class="avatar">
-                                                            <img src="assets/images/256_rsz_90-jiang-640827-unsplash.jpg"
+                                                            <img src="{% static 'assets/images/256_rsz_90-jiang-640827-unsplash.jpg' %}"
                                                                  alt="Avatar"
                                                                  class="avatar-img rounded-circle">
                                                         </div>
@@ -697,7 +698,7 @@
                                                 <div class="card-body media">
                                                     <div class="media-left mr-1">
                                                         <div class="avatar">
-                                                            <img src="assets/images/256_rsz_florian-perennes-594195-unsplash.jpg"
+                                                            <img src="{% static 'assets/images/256_rsz_florian-perennes-594195-unsplash.jpg' %}"
                                                                  alt="Avatar"
                                                                  class="avatar-img rounded-circle">
                                                         </div>
@@ -716,7 +717,7 @@
                                                 <div class="card-body media">
                                                     <div class="media-left mr-1">
                                                         <div class="avatar">
-                                                            <img src="assets/images/256_rsz_james-gillespie-714755-unsplash.jpg"
+                                                            <img src="{% static 'assets/images/256_rsz_james-gillespie-714755-unsplash.jpg' %}"
                                                                  alt="Avatar"
                                                                  class="avatar-img rounded-circle">
                                                         </div>
@@ -764,7 +765,7 @@
                                                 <div class="card-body media align-items-center">
                                                     <div class="media-left mr-1">
                                                         <div class="avatar">
-                                                            <img src="assets/images/256_rsz_nicolas-horn-689011-unsplash.jpg"
+                                                            <img src="{% static 'assets/images/256_rsz_nicolas-horn-689011-unsplash.jpg' %}"
                                                                  alt="Avatar"
                                                                  class="avatar-img rounded-circle">
                                                         </div>
@@ -784,7 +785,7 @@
                                                 <div class="card-body media align-items-center">
                                                     <div class="media-left mr-1">
                                                         <div class="avatar">
-                                                            <img src="assets/images/256_rsz_sharina-mae-agellon-377466-unsplash.jpg"
+                                                            <img src="{% static 'assets/images/256_rsz_sharina-mae-agellon-377466-unsplash.jpg' %}"
                                                                  alt="Avatar"
                                                                  class="avatar-img rounded-circle">
                                                         </div>
@@ -804,7 +805,7 @@
                                                 <div class="card-body media align-items-center">
                                                     <div class="media-left mr-1">
                                                         <div class="avatar">
-                                                            <img src="assets/images/256_rsz_karl-s-973833-unsplash.jpg"
+                                                            <img src="{% static 'assets/images/256_rsz_karl-s-973833-unsplash.jpg' %}"
                                                                  alt="Avatar"
                                                                  class="avatar-img rounded-circle">
                                                         </div>
@@ -835,7 +836,7 @@
                                                 <div class="card-body media align-items-center">
                                                     <div class="media-left mr-1">
                                                         <div class="avatar">
-                                                            <img src="assets/images/256_rsz_90-jiang-640827-unsplash.jpg"
+                                                            <img src="{% static 'assets/images/256_rsz_90-jiang-640827-unsplash.jpg' %}"
                                                                  alt="Avatar"
                                                                  class="avatar-img rounded-circle">
                                                         </div>
@@ -855,7 +856,7 @@
                                                 <div class="card-body media align-items-center">
                                                     <div class="media-left mr-1">
                                                         <div class="avatar">
-                                                            <img src="assets/images/256_rsz_florian-perennes-594195-unsplash.jpg"
+                                                            <img src="{% static 'assets/images/256_rsz_florian-perennes-594195-unsplash.jpg' %}"
                                                                  alt="Avatar"
                                                                  class="avatar-img rounded-circle">
                                                         </div>
@@ -875,7 +876,7 @@
                                                 <div class="card-body media align-items-center">
                                                     <div class="media-left mr-1">
                                                         <div class="avatar">
-                                                            <img src="assets/images/256_rsz_james-gillespie-714755-unsplash.jpg"
+                                                            <img src="{% static 'assets/images/256_rsz_james-gillespie-714755-unsplash.jpg' %}"
                                                                  alt="Avatar"
                                                                  class="avatar-img rounded-circle">
                                                         </div>
@@ -1328,33 +1329,33 @@
                           sidebar-variant="bg-transparent border-0"></app-settings>
         </div>
         <!-- jQuery -->
-        <script src="assets/vendor/jquery.min.js"></script>
+        <script src="{% static 'assets/vendor/jquery.min.js' %}"></script>
 
         <!-- Bootstrap -->
-        <script src="assets/vendor/popper.min.js"></script>
-        <script src="assets/vendor/bootstrap.min.js"></script>
+        <script src="{% static 'assets/vendor/popper.min.js' %}"></script>
+        <script src="{% static 'assets/vendor/bootstrap.min.js' %}"></script>
 
         <!-- Perfect Scrollbar -->
-        <script src="assets/vendor/perfect-scrollbar.min.js"></script>
+        <script src="{% static 'assets/vendor/perfect-scrollbar.min.js' %}"></script>
 
         <!-- MDK -->
-        <script src="assets/vendor/dom-factory.js"></script>
-        <script src="assets/vendor/material-design-kit.js"></script>
+        <script src="{% static 'assets/vendor/dom-factory.js' %}"></script>
+        <script src="{% static 'assets/vendor/material-design-kit.js' %}"></script>
 
         <!-- App JS -->
-        <script src="assets/js/app.js"></script>
+        <script src="{% static 'assets/js/app.js' %}"></script>
 
         <!-- Highlight.js -->
-        <script src="assets/js/hljs.js"></script>
+        <script src="{% static 'assets/js/hljs.js' %}"></script>
 
         <!-- App Settings (safe to remove) -->
-        <script src="assets/js/app-settings.js"></script>
+        <script src="{% static 'assets/js/app-settings.js' %}"></script>
 
         <!-- Dragula -->
-        <script src="assets/vendor/dragula/dragula.min.js"></script>
+        <script src="{% static 'assets/vendor/dragula/dragula.min.js' %}"></script>
 
         <!-- Drag & Drop Page -->
-        <script src="assets/js/dragula.js"></script>
+        <script src="{% static 'assets/js/dragula.js' %}"></script>
 
     </body>
 

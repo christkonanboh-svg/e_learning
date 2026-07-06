@@ -1,6 +1,8 @@
+from django.contrib import admin
 from django.urls import path
 from etudiant.views import render_page
 
 urlpatterns = [
-    path('<str:page_name>/', render_page, name='render_page'),
+    path('admin/', admin.site.urls),
+    path('', render_page, name='home'),
 ]

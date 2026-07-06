@@ -1,4 +1,4 @@
-from django.http import HttpResponse
+from django.shortcuts import render
 
-def home(request):
-    return HttpResponse("Bienvenue sur e-learning !")
+def render_page(request):
+    return render(request, 'fixed-instructor-dashboard.html')

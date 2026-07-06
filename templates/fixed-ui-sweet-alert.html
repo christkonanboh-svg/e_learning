@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en"
       dir="ltr">
@@ -22,32 +23,32 @@
 
         <!-- Perfect Scrollbar -->
         <link type="text/css"
-              href="assets/vendor/perfect-scrollbar.css"
+              href="{% static 'assets/vendor/perfect-scrollbar.css' %}"
               rel="stylesheet">
 
         <!-- Material Design Icons -->
         <link type="text/css"
-              href="assets/css/material-icons.css"
+              href="{% static 'assets/css/material-icons.css' %}"
               rel="stylesheet">
 
         <!-- Font Awesome Icons -->
         <link type="text/css"
-              href="assets/css/fontawesome.css"
+              href="{% static 'assets/css/fontawesome.css' %}"
               rel="stylesheet">
 
         <!-- Preloader -->
         <link type="text/css"
-              href="assets/vendor/spinkit.css"
+              href="{% static 'assets/vendor/spinkit.css' %}"
               rel="stylesheet">
 
         <!-- App CSS -->
         <link type="text/css"
-              href="assets/css/app.css"
+              href="{% static 'assets/css/app.css' %}"
               rel="stylesheet">
 
         <!-- Sweet Alert -->
         <link rel="stylesheet"
-              href="assets/css/sweetalert.css">
+              href="{% static 'assets/css/sweetalert.css' %}">
 
     </head>
 
@@ -96,7 +97,7 @@
                             <!-- Brand -->
                             <a href="fixed-student-dashboard.html"
                                class="navbar-brand">
-                                <img src="assets/images/logo/white.svg"
+                                <img src="{% static 'assets/images/logo/white.svg' %}"
                                      class="mr-2"
                                      alt="LearnPlus" />
                                 <span class="d-none d-xs-md-block">LearnPlus</span>
@@ -162,7 +163,7 @@
                                                     </span>
                                                     <span class="d-flex">
                                                         <span class="avatar avatar-xs mr-2">
-                                                            <img src="assets/images/people/110/woman-5.jpg"
+                                                            <img src="{% static 'assets/images/people/110/woman-5.jpg' %}"
                                                                  alt="people"
                                                                  class="avatar-img rounded-circle">
                                                         </span>
@@ -183,7 +184,7 @@
                                                     </span>
                                                     <span class="d-flex">
                                                         <span class="avatar avatar-xs mr-2">
-                                                            <img src="assets/images/people/110/woman-5.jpg"
+                                                            <img src="{% static 'assets/images/people/110/woman-5.jpg' %}"
                                                                  alt="people"
                                                                  class="avatar-img rounded-circle">
                                                         </span>
@@ -266,7 +267,7 @@
                                     <a class="nav-link dropdown-toggle"
                                        data-toggle="dropdown"
                                        href="#"
-                                       role="button"><img src="assets/images/people/50/guy-6.jpg"
+                                       role="button"><img src="{% static 'assets/images/people/50/guy-6.jpg' %}"
                                              alt="Avatar"
                                              class="rounded-circle"
                                              width="40"></a>
@@ -1106,34 +1107,34 @@
                           sidebar-variant="bg-transparent border-0"></app-settings>
         </div>
         <!-- jQuery -->
-        <script src="assets/vendor/jquery.min.js"></script>
+        <script src="{% static 'assets/vendor/jquery.min.js' %}"></script>
 
         <!-- Bootstrap -->
-        <script src="assets/vendor/popper.min.js"></script>
-        <script src="assets/vendor/bootstrap.min.js"></script>
+        <script src="{% static 'assets/vendor/popper.min.js' %}"></script>
+        <script src="{% static 'assets/vendor/bootstrap.min.js' %}"></script>
 
         <!-- Perfect Scrollbar -->
-        <script src="assets/vendor/perfect-scrollbar.min.js"></script>
+        <script src="{% static 'assets/vendor/perfect-scrollbar.min.js' %}"></script>
 
         <!-- MDK -->
-        <script src="assets/vendor/dom-factory.js"></script>
-        <script src="assets/vendor/material-design-kit.js"></script>
+        <script src="{% static 'assets/vendor/dom-factory.js' %}"></script>
+        <script src="{% static 'assets/vendor/material-design-kit.js' %}"></script>
 
         <!-- App JS -->
-        <script src="assets/js/app.js"></script>
+        <script src="{% static 'assets/js/app.js' %}"></script>
 
         <!-- Highlight.js -->
-        <script src="assets/js/hljs.js"></script>
+        <script src="{% static 'assets/js/hljs.js' %}"></script>
 
         <!-- App Settings (safe to remove) -->
-        <script src="assets/js/app-settings.js"></script>
+        <script src="{% static 'assets/js/app-settings.js' %}"></script>
 
         <!-- Global Settings -->
-        <script src="assets/js/settings.js"></script>
+        <script src="{% static 'assets/js/settings.js' %}"></script>
 
         <!-- Sweet Alert -->
-        <script src="assets/vendor/sweetalert.min.js"></script>
-        <script src="assets/js/sweetalert.js"></script>
+        <script src="{% static 'assets/vendor/sweetalert.min.js' %}"></script>
+        <script src="{% static 'assets/js/sweetalert.js' %}"></script>
 
     </body>
 

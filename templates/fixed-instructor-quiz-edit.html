@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en"
       dir="ltr">
@@ -22,36 +23,36 @@
 
         <!-- Perfect Scrollbar -->
         <link type="text/css"
-              href="assets/vendor/perfect-scrollbar.css"
+              href="{% static 'assets/vendor/perfect-scrollbar.css' %}"
               rel="stylesheet">
 
         <!-- Material Design Icons -->
         <link type="text/css"
-              href="assets/css/material-icons.css"
+              href="{% static 'assets/css/material-icons.css' %}"
               rel="stylesheet">
 
         <!-- Font Awesome Icons -->
         <link type="text/css"
-              href="assets/css/fontawesome.css"
+              href="{% static 'assets/css/fontawesome.css' %}"
               rel="stylesheet">
 
         <!-- Preloader -->
         <link type="text/css"
-              href="assets/vendor/spinkit.css"
+              href="{% static 'assets/vendor/spinkit.css' %}"
               rel="stylesheet">
 
         <!-- App CSS -->
         <link type="text/css"
-              href="assets/css/app.css"
+              href="{% static 'assets/css/app.css' %}"
               rel="stylesheet">
 
         <!-- Touchspin -->
         <link rel="stylesheet"
-              href="assets/css/bootstrap-touchspin.css">
+              href="{% static 'assets/css/bootstrap-touchspin.css' %}">
 
         <!-- Vendor CSS -->
         <link rel="stylesheet"
-              href="assets/css/nestable.css">
+              href="{% static 'assets/css/nestable.css' %}">
 
     </head>
 
@@ -100,7 +101,7 @@
                             <!-- Brand -->
                             <a href="fixed-instructor-dashboard.html"
                                class="navbar-brand">
-                                <img src="assets/images/logo/white.svg"
+                                <img src="{% static 'assets/images/logo/white.svg' %}"
                                      class="mr-2"
                                      alt="LearnPlus" />
                                 <span class="d-none d-xs-md-block">LearnPlus</span>
@@ -167,7 +168,7 @@
                                                     </span>
                                                     <span class="d-flex">
                                                         <span class="avatar avatar-xs mr-2">
-                                                            <img src="assets/images/people/110/woman-5.jpg"
+                                                            <img src="{% static 'assets/images/people/110/woman-5.jpg' %}"
                                                                  alt="people"
                                                                  class="avatar-img rounded-circle">
                                                         </span>
@@ -188,7 +189,7 @@
                                                     </span>
                                                     <span class="d-flex">
                                                         <span class="avatar avatar-xs mr-2">
-                                                            <img src="assets/images/people/110/woman-5.jpg"
+                                                            <img src="{% static 'assets/images/people/110/woman-5.jpg' %}"
                                                                  alt="people"
                                                                  class="avatar-img rounded-circle">
                                                         </span>
@@ -271,7 +272,7 @@
                                     <a class="nav-link dropdown-toggle"
                                        data-toggle="dropdown"
                                        href="#"
-                                       role="button"><img src="assets/images/people/50/guy-6.jpg"
+                                       role="button"><img src="{% static 'assets/images/people/50/guy-6.jpg' %}"
                                              alt="Avatar"
                                              class="rounded-circle"
                                              width="40"></a>
@@ -536,7 +537,7 @@
                                         <label for="quiz_image"
                                                class="col-sm-3 col-form-label form-label">Quiz Image:</label>
                                         <div class="col-sm-9 col-md-4">
-                                            <p><img src="assets/images/vuejs.png"
+                                            <p><img src="{% static 'assets/images/vuejs.png' %}"
                                                      alt=""
                                                      width="150"
                                                      class="rounded"></p>
@@ -1142,27 +1143,27 @@
                           sidebar-variant="bg-transparent border-0"></app-settings>
         </div>
         <!-- jQuery -->
-        <script src="assets/vendor/jquery.min.js"></script>
+        <script src="{% static 'assets/vendor/jquery.min.js' %}"></script>
 
         <!-- Bootstrap -->
-        <script src="assets/vendor/popper.min.js"></script>
-        <script src="assets/vendor/bootstrap.min.js"></script>
+        <script src="{% static 'assets/vendor/popper.min.js' %}"></script>
+        <script src="{% static 'assets/vendor/bootstrap.min.js' %}"></script>
 
         <!-- Perfect Scrollbar -->
-        <script src="assets/vendor/perfect-scrollbar.min.js"></script>
+        <script src="{% static 'assets/vendor/perfect-scrollbar.min.js' %}"></script>
 
         <!-- MDK -->
-        <script src="assets/vendor/dom-factory.js"></script>
-        <script src="assets/vendor/material-design-kit.js"></script>
+        <script src="{% static 'assets/vendor/dom-factory.js' %}"></script>
+        <script src="{% static 'assets/vendor/material-design-kit.js' %}"></script>
 
         <!-- App JS -->
-        <script src="assets/js/app.js"></script>
+        <script src="{% static 'assets/js/app.js' %}"></script>
 
         <!-- Highlight.js -->
-        <script src="assets/js/hljs.js"></script>
+        <script src="{% static 'assets/js/hljs.js' %}"></script>
 
         <!-- App Settings (safe to remove) -->
-        <script src="assets/js/app-settings.js"></script>
+        <script src="{% static 'assets/js/app-settings.js' %}"></script>
 
         <div class="modal fade"
              id="editQuiz">
@@ -1237,12 +1238,12 @@
         </div>
 
         <!-- Vendor JS -->
-        <script src="assets/vendor/jquery.nestable.js"></script>
-        <script src="assets/vendor/jquery.bootstrap-touchspin.js"></script>
+        <script src="{% static 'assets/vendor/jquery.nestable.js' %}"></script>
+        <script src="{% static 'assets/vendor/jquery.bootstrap-touchspin.js' %}"></script>
 
         <!-- Initialize -->
-        <script src="assets/js/nestable.js"></script>
-        <script src="assets/js/touchspin.js"></script>
+        <script src="{% static 'assets/js/nestable.js' %}"></script>
+        <script src="{% static 'assets/js/touchspin.js' %}"></script>
 
     </body>
 
